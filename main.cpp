@@ -25,7 +25,7 @@ int main()
     
     if (discriminant == 0)
     {
-        cout << "The equation has a single expected root.";
+        cout << "The equation has a single repeated root.";
     }
  
     else if (discriminant > 0 )
@@ -33,6 +33,8 @@ int main()
     }
        else if (discriminant < 0)
     {  cout << "The equation has two complex roots.";}
+  else if (discriminant >= 0)
+    "cout << "The roots are";"
         
         
     
