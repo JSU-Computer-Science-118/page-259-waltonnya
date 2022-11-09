@@ -34,7 +34,7 @@ int main()
        else if (discriminant < 0)
     {  cout << "The equation has two complex roots.";}
   else if (discriminant >= 0)
-    "cout << "The roots are";"
+    cout << "The roots are";
         
         
     
