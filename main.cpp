@@ -12,7 +12,7 @@ int main()
     float discriminant;
     
     
-    cout << "Input: ";
+   
     cin >> a >> b >> c;
     
     
