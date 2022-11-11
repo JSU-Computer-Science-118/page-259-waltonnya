@@ -35,7 +35,7 @@ int main()
    { cout << "The equation has two real roots./n";
     }
        else if (discriminant < 0)
-    {  cout << "The equation has two complex roots./n";}
+    {  cout << "Complex Roots./n";}
   else if (discriminant >= 0)
     cout << "The roots are";
         
