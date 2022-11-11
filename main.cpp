@@ -12,27 +12,30 @@ int main()
     cout << "Input value of a: ";
     cin >> a;
     cout << endl;
+  
+  cout << "Input: ";
+  cin >> a >> b >> c;
     
-    cout << "Input value of b: ";
-    cin >> b;
-    cout << endl;
+   // cout << "Input value of b: ";
+   // cin >> b;
+  //  cout << endl;
     
-    cout << "Input value of c: ";
-    cin >> c;
-    cout << endl;
+  //  cout << "Input value of c: ";
+ //   cin >> c;
+ //   cout << endl;
     
-    discriminant = pow(b, 2) - (4*a*c);
+   discriminant = pow(b, 2) - (4*a*c);
     
-    if (discriminant == 0)
-    {
-        cout << "The equation has a single repeated root.";
-    }
+   if (discriminant == 0)
+  {
+      cout << "The equation has a single repeated root.";
+   }
  
-    else if (discriminant > 0 )
-    { cout << "The equation has two real roots.";
+   else if (discriminant > 0 )
+   { cout << "The equation has two real roots./n";
     }
        else if (discriminant < 0)
-    {  cout << "The equation has two complex roots.";}
+    {  cout << "The equation has two complex roots./n";}
   else if (discriminant >= 0)
     cout << "The roots are";
         
