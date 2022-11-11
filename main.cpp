@@ -26,7 +26,7 @@ int main()
     }
  
     else if (discriminant > 0 )
-    { cout << "Two Real Roots. \n" << "-First Root " << x1 << "\n" << "-Second Root" << x2 << endl;
+    { cout << "Two Real Roots \n" << "- First Root " << x1 << "\n" << "- Second Root" << x2 << endl;
 
         
     }
