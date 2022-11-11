@@ -1,44 +1,43 @@
 // Nya Walton   J00894068  11/8/2022
 
-
-   #include <iostream>
+#include <iostream>
 #include <cmath>
-
 using namespace std;
-
-int main ()
+int main()
 
 {
+    float a;
+    float b;
+    float c, x1, x2;
+    float discriminant;
+    
+    
+    cout << "Input: ";
+    cin >> a >> b >> c;
+    
+    
+    discriminant = pow(b, 2) - (4*a*c);
+    x1 = ( -b + sqrt(discriminant)) / (2*a);
+    x2 = ( -b - sqrt(discriminant)) / (2*a);
+    
+    if (discriminant == 0)
+    {
+        cout << "The single root is " << x1 << endl;
+    }
+ 
+    else if (discriminant > 0 )
+    { cout << "Two Real Roots. \n" << "-First Root " << x1 << "\n" << "-Second Root" << x2 << endl;
 
-
-  double a;
-  double b;
-  double c;
-  double x;
-  double discriminant;
-
-  cout << "enter the value for a" << endl;
-  cin >> a;
-  cout << "enter the value for b" << endl;
-  cin >> b;
-  cout << "enter the value for c" << endl;
-  cin >> c;
-
-    x = ((b)*(b)-((4)*(a)*(c)));
-  discriminant = pow(x, 0.5);
-
-  cout << "The descriminant is " << discriminant << endl;
-  cout << endl;
-  
-if (discriminant >= 0)
-{
-  if (discriminant = 0)
-     cout << "There is one real solution" << endl;
-  else 
-     cout << "There are at least two real solutions" << endl;
+        
+    }
+       else if (discriminant < 0)
+    {  cout << "Complex roots\n";}
+        
+        
+    
+    return 0;
 }
-else
-   cout << "There are no real solutions" << endl;
-  
-  return 0;
-  }
+
+
+
+ 
